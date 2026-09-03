@@ -2,7 +2,7 @@
 
 komponist = \markup { Georg Friedrich Händel }
 widmung = \markup {  }
-arrangeur = \markup { ´ }
+arrangeur = \markup { }
 untertitel = \markup { Ouverture }
 herausgeber = \markup {  }
 titel = \markup { Music for the Royal Fireworks }

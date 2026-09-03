@@ -8,7 +8,6 @@
 \include "../Noten/generaldefinitions.ly"
 \include "../Noten/mydrums2.ly"
 \include "../Noten/drumdefinitions.ly"
-\include "commands.ly"
 
 tempTranspose = #(define-music-function (parser location music)
                    (ly:music?)
@@ -18,6 +17,8 @@ tempTranspose = #(define-music-function (parser location music)
                           (to (ly:make-pitch octave note alteration)))
                      #{ \transpose c c  $music #}))
 
+originalPageBreak = { }
+mPageBreak = { \break }
 
 ablaufzeileFeuerwerksmusikHaendel = {
 
@@ -1153,6 +1154,17 @@ hornIIINotenFeuerwerksmusikHaendel = \relative d' {
 
 }
 
+posauneINotenFeuerwerksmusikHaendel = \relative d' {
+  \hornINotenFeuerwerksmusikHaendel
+}
+
+posauneIINotenFeuerwerksmusikHaendel = \relative d' {
+  \hornIINotenFeuerwerksmusikHaendel
+}
+
+posauneIIINotenFeuerwerksmusikHaendel = \relative d' {
+  \hornIIINotenFeuerwerksmusikHaendel
+}
 
 trompeteINotenFeuerwerksmusikHaendel = \tempTranspose \relative a' {
   \globalFeuerwerksmusikHaendel
