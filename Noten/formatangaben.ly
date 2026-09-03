@@ -101,6 +101,7 @@ violineZweiMarkup = \markup { \rounded-box { \concat { \bold { "Violine 2" } } }
 vckbMarkup = \markup { \rounded-box { \bold Vc./Kb. } }
 trompetenMarkup = \markup { \rounded-box { \bold Trp. } }
 gpMarkup = \markup { \bold G.P. }
+fineMarkup = \markup { \italic Fine }
 
 mStemUp = {
   \tag #'klavierauszug { }

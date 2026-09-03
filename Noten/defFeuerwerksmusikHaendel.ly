@@ -64,6 +64,9 @@ scoreFeuerwerksmusikHaendel = {
 
       }
       <<
+        \new Voice {
+          \ablaufzeileFeuerwerksmusikHaendel
+        }
         \new Voice = "vOboe_1" {
           \tag #'transponierendepartitur {
             \clef "treble"
