@@ -34,7 +34,7 @@ vorspielpausenFeuerwerksmusikHaendel = {
 
 }
 
-OboeINotenFeuerwerksmusikHaendel = \tempTranspose \relative a' {
+oboeINotenFeuerwerksmusikHaendel = \tempTranspose \relative a' {
   \globalFeuerwerksmusikHaendel
   r2 a4. -\mf a8 | % 2
   d4. d8 e8. [ e16 -. ] e8 ( [ fis16 g16 ) ] | % 3
@@ -256,7 +256,7 @@ OboeINotenFeuerwerksmusikHaendel = \tempTranspose \relative a' {
 
 
 
-OboeIINotenFeuerwerksmusikHaendel = \tempTranspose \relative fis' {
+oboeIINotenFeuerwerksmusikHaendel = \tempTranspose \relative fis' {
   \globalFeuerwerksmusikHaendel
   r2 fis4. -\mf fis8 | % 2
   a4. a8 cis8. [ cis16 -. ] cis8 ( [ d16 e16 ) ] | % 3
@@ -467,7 +467,7 @@ OboeIINotenFeuerwerksmusikHaendel = \tempTranspose \relative fis' {
 
 
 
-OboeIIINotenFeuerwerksmusikHaendel = \tempTranspose \relative d' {
+oboeIIINotenFeuerwerksmusikHaendel = \tempTranspose \relative d' {
   \globalFeuerwerksmusikHaendel
   r2 d4. -\mf d8 | % 2
   d4. d8 a'4. a8 | % 3
@@ -664,6 +664,494 @@ OboeIIINotenFeuerwerksmusikHaendel = \tempTranspose \relative d' {
 
 }
 
+hornINotenFeuerwerksmusikHaendel = \tempTranspose \relative a' {
+  \globalFeuerwerksmusikHaendel
+  r2 a4. -\mf a8 | % 2
+  d4. d8 e8. [ e16 -. ] e8 ( [ fis16 g16 ) ] | % 3
+  fis4 e8 ( [ d8 ) ] a'4. a8 | % 4
+  a4 fis8 ( [ d8 ) ] g4. g8 | % 5
+  g2 fis4. g8 | % 6
+  e4 d8. [ e16 ] e4. \trill d8 \originalPageBreak | % 7
+  d2 a4. -\f a8 | % 8
+  d4. d8 e8. [ e16 -. ] e8 ( [ fis16 g16 ) ] | % 9
+  fis4 e8 ( [ d8 ) ] a'4. a8 | \barNumberCheck #10
+  a4 fis8 ( [ d8 ) ] g4. g8 | % 11
+  g4 a8 ( [ e8 ) ] fis4. fis8 | % 12
+  fis4. e8 b'4. e,8 | % 13
+  e2 cis'4. -\ff cis8 \originalPageBreak | % 14
+  cis2 r2 | % 15
+  r2 cis4. -\mf cis8 | % 16
+  cis2 r2 | % 17
+  r2 cis4. -\f cis8 | % 18
+  cis4 cis4 b4 b4 | % 19
+  cis2 r2 \originalPageBreak | \barNumberCheck #20
+  R1*5 | % 25
+  r2 cis4. -\mf cis8 \originalPageBreak | % 26
+  b4. b8 a4 g8. [ fis16 ] | % 27
+  fis2 r2 | % 28
+  r2 a4. -\f a8 | % 29
+  a8. [ g16 ] fis8 r8 r2 | \barNumberCheck #30
+  r2 a4. -\p a8 | % 31
+  a8. [ g16 -. ] fis4 fis4 -\mf g8. [ a16 -. ] \originalPageBreak | % 32
+  b4 g4 e4 b'4 | % 33
+  cis2 cis4. b8 | % 34
+  a4 fis4 d4 a'4 | % 35
+  b2 b4 b4 | % 36
+  cis4 cis4 a4 d8. [ cis16 -. ] | % 37
+  cis2 a4.   a8
+  \originalPageBreak | % 38
+  b4 a4 b4 cis4 | % 39
+  d2 cis4. cis8 | \barNumberCheck #40
+  d2 b4. b8 | % 41
+  cis2 a4.  -\f g8 | % 42
+  g4 fis8. [ g16 -. ] e4. \trill d8 | % 43
+  d2 r2 | % 44
+  a'1  \originalPageBreak | % 45
+  a2 gis2 | % 46
+  a1  \bar "||"
+  \time 3/4  R2.*5 \originalPageBreak | % 52
+  r4 -\! fis8. [ -\p g16 -. ]  a8. [ b16 -.
+  ] | % 53
+  g8. [ a16 -. ] g8. [ a16 -. ] fis8. [ g16 -. ] | % 54
+  \mPageBreak
+  e8. [ fis16 -. ] e8. [ fis16 -. ] g8. [ a16 -. ] | % 55
+  fis4 r4 r4 | % 56
+  R2.*3 \originalPageBreak | % 59
+  R2. | \barNumberCheck #60
+  r4 a4 -\mf a4 | % 61
+  a2. ~ | % 62
+  a4 -\< gis4. gis8 | % 63
+  a4 -\! -\f r4 r4 | % 64
+  r4 e8. [ -\mf fis16 -. ] e8. [ fis16 -. ] \originalPageBreak | % 65
+  g8. [ a16 -. ] g8. [ -\< a16 -. ] g8. [ a16 -. ] | % 66
+  fis4 -\! -\f r4 r4 | % 67
+  r4 a8. [ -\mf b16 -. ] a8. [ b16 -. ] | % 68
+  a8. [ b16 -. ] a8. [ b16 -. ] a8. [ d16 -. ] | % 69
+  b2. \originalPageBreak | \barNumberCheck #70
+  a8 [   a16 a16 ] a8
+  [ a8 d8 a8 ] | % 71
+  cis2. | % 72
+  b8 [ b16 b16 ] b8 [ b8 g8 g8 ] | % 73
+  fis2. | % 74
+  b2.  -\f | % 75
+  a2. \originalPageBreak | % 76
+  cis2. | % 77
+  d2. | % 78
+  b2. -\mf | % 79
+  a2. | \barNumberCheck #80
+  g2. -\> | % 81
+  fis2. | % 82
+  R2.*2 \originalPageBreak | % 84
+  R2.*2 | % 86
+  d2. -\! -\p   | % 87
+  e2.  | % 88
+  fis4 gis2 | % 89
+  a8 [ -\f e8 -. ] -\p e16 ( [ fis16 e8 ) ] e16 ( [ fis16 e8 ) ]
+  \originalPageBreak | \barNumberCheck #90
+  fis2 r4 | % 91
+  r8 fis8 -. fis16 ( [ g16 fis8 ) ] fis16 ( [ g16 fis8 ) ] | % 92
+  g2. ~ | % 93
+  g8 [ e8 -. a8 ( g8 ) fis8 ( e8 ) ] | % 94
+  fis4   r4 r4
+  \originalPageBreak | % 95
+  R2. | % 96
+  r8  d8 [ d8 fis8 fis8 a8 ] | % 97
+  a8 [ fis8 fis8 a8 a8 d8 ] | % 98
+  d8 [ a8 a8 fis8 fis8 d8 ] | % 99
+  d8 [ -\f a8 ] r8 d8 [ -\mf e8 fis16 ( e16 ) ] \originalPageBreak |
+  \barNumberCheck #100
+  fis8 [ d8 ] r8 fis8 [ g8 a16 ( g16 ) ] | % 101
+  a8 [   fis8 ] b4
+  cis4 | % 102
+  d8 [  d,8 d8 fis8 fis8 a8 ] | % 103
+  a2. | % 104
+  d,4 d'4 -\ff cis4 | % 105
+  b4 a4 g4 \originalPageBreak | % 106
+  fis4 r8 fis8 [ -\mf e8 g8 ] | % 107
+  fis4 r8 a8 [ cis8. cis16 ] | % 108
+  d8 [   a8 ] b4. --
+  b8 -. | % 109
+  b8 [  e,8 ] a4. -- a8 -. \originalPageBreak | \barNumberCheck
+  #110
+  a8 [ d,8 ] g4. -- g8 -. | % 111
+  a,4. e'8 [ e8 a8 ] | % 112
+  a8 [ fis8 fis8 a8 a8 fis8 ] | % 113
+  e8 [ a8 a8 e8 e8 a8 ] \originalPageBreak | % 114
+  a8 [ fis8 fis8 a8 a8 fis8 ] | % 115
+  g4. a8 [ -\ff fis8 ( g8 ) ] | % 116
+  a8 ( [ b8 ) ] g4. \trill fis8 | % 117
+  fis4 r4 r4 | % 118
+  R2.*2 \originalPageBreak | \barNumberCheck #120
+  R2.*5 | % 125
+  r8 fis16 [ -\p fis16 ] fis8 [ fis8 fis8 fis8 ] \originalPageBreak | % 126
+  b8 ( [ fis8 ) ] fis4 r4 | % 127
+  R2.*5 \originalPageBreak | % 132
+  R2.*6 \originalPageBreak | % 138
+  r8 b16 [ -\mf b16 ] b8 [ b8 b8 b8 ] | % 139
+  b8 [ fis16 fis16 ] fis8 [ fis8 fis8 fis8 ] | \barNumberCheck #140
+  b8 ( [ -\> fis8 ) ] fis4 r4 -\! | % 141
+  R2. | % 142
+  r8 cis'16 [ -\mf cis16 ] cis8 [ cis8 cis8 cis8 ] | % 143
+  cis8 [ cis16 cis16 ] cis8 [ cis8 a8 a8 ] \originalPageBreak | % 144
+  a8 ( [ -\> e8 ) ] e4 r4 -\! | % 145
+  \mPageBreak
+  R2.*2 | % 147
+  r8 a16 [ -\mf a16 ] a8 [ a8 a8 a8 ] | % 148
+  d8 ( [ -\> a8 ) ] a4 r4 -\! | % 149
+  R2. \originalPageBreak | \barNumberCheck #150
+  R2.*2 | % 152
+  r4 e8. [ -\p fis16 -. ] e8. [ fis16 -. ] | % 153
+  g8. [ a16 -. ] g8. [ a16 -. ] g8. [ a16 -. ] | % 154
+  fis8. [ g16 -. ] fis8. [ g16 -. ] fis8. [ g16 -. ] | % 155
+  a8. [ b16 -. ] a8. [ b16 -. ] a8. [ b16 -. ] \originalPageBreak | % 156
+  a2. ~   | % 157
+  a2. ~  | % 158
+  a8 [ a16 a16 ] a8 [ a8 a8 a8 ] | % 159
+  a8 [ -\f d,8 d8 fis8 fis8 a8 ] | \barNumberCheck #160
+  a8 [ fis8 fis8 a8 a8 d8 ] \originalPageBreak | % 161
+  d8 [ a8 a8 fis8 fis8 d8 ] | % 162
+  d8 [ -\f a8 ] r8 d8 [ -\mf e8 fis16 ( e16 ) ] | % 163
+  fis8 [ d8 ] r8 fis8 [ g8 a16 ( g16 ) ] | % 164
+  a8 [   fis8 ] b4
+  cis4 | % 165
+  d8 [  d,8 d8 fis8 fis8 a8 ] | % 166
+  a2. \originalPageBreak | % 167
+  d,4 d'4 cis4 | % 168
+  b4 a4 g4 | % 169
+  fis4. e8 [ fis8. g16 -. ] | \barNumberCheck #170
+  e4. g8 [ fis8. g16 -. ] | % 171
+  e4. g8 [ fis8. g16 -. ] | % 172
+  e4. g8 [ fis8. g16 -. ] \originalPageBreak | % 173
+  e4 a4 -\ff a4 | % 174
+  a4. g8 -. [ fis8 ( e8 ) ] | % 175
+  fis8 [ g8 ] e4. \trill d8 \bar "||"
+  \time 4/4  d2 r2 | % 177
+  R1*2 \originalPageBreak | % 179
+  R1*6 \originalPageBreak | % 185
+  R1*2 \bar "||"
+
+}
+
+hornIINotenFeuerwerksmusikHaendel = \relative fis' {
+  \globalFeuerwerksmusikHaendel
+  r2 fis4. -\mf fis8 | % 2
+  a4. a8 a4 a8. [ e'16 ] | % 3
+  d4 a4 fis'4. fis8 | % 4
+  fis4 d8 ( [ fis8 ) ] e4. e8 | % 5
+  e2 d4. e8 | % 6
+  a,4 fis4 a8. [ e'16 ] e8. [ a,16 ] \originalPageBreak | % 7
+  a2 fis4. -\f fis8 | % 8
+  fis4. fis8 a4. a8 | % 9
+  d,4 a'4 fis'4. fis8 | \barNumberCheck #10
+  fis4 fis,4 d'4 e4 | % 11
+  e4. a,8 a4 d4 | % 12
+  d4. e8 e4. e8 | % 13
+  a,2 e'4. -\ff e8 \originalPageBreak | % 14
+  a4 e4 r2 | % 15
+  r2 e4. -\mf e8 | % 16
+  a4 e4 r2 | % 17
+  r2 e4. -\f e8 | % 18
+  a4 a2 gis4 | % 19
+  a2 r2 \originalPageBreak | \barNumberCheck #20
+  R1*5 | % 25
+  r2 a4. -\mf a8 \originalPageBreak | % 26
+  g4. g8 e4. e8 | % 27
+  d2 r2 | % 28
+  r2 fis4. -\f fis8 | % 29
+  fis8. [ e16 ] d8 r8 r2 | \barNumberCheck #30
+  r2 fis4. -\p fis8 | % 31
+  fis8. [ e16 -. ] d4 d4 -\mf e8. [ fis16 -. ] \originalPageBreak | % 32
+  g4 d4 g4 g4 | % 33
+  e2 e4 fis8. [ g16 -. ] | % 34
+  a4 a,4 a4 a'4 | % 35
+  g2 g4 g4 | % 36
+  g4 e4 fis4. e8 | % 37
+  e2 a,4.   a8
+  \originalPageBreak | % 38
+  d4. d16 ( [ e16 ) ] e8. [ e16 -. ] e8 ( [ fis16 g16 ) ] | % 39
+  fis4 e8. [ d16 -. ] a'4. a8 | \barNumberCheck #40
+  a4 fis8 ( [ d8 ) ] g4. g8 | % 41
+  g2 fis4.  -\f e8 | % 42
+  e4 d8 [ fis,8 ] a4. a8 | % 43
+  fis2 r2 | % 44
+  fis'1 \originalPageBreak | % 45
+  d2. d4 | % 46
+  e1 \bar "||"
+  \time 3/4  R2.*5 \originalPageBreak | % 52
+  r4 -\! d8. [ -\p e16 -. ]  fis8. [ g16 -.
+  ] | % 53
+  e8. [ fis16 -. ] e8. [ fis16 -. ] d8. [ e16 -. ] | % 54
+  a,8. [ d16 -. ] a8. [ d16 -. ] e8. [ fis16 -. ] | % 55
+  d4 r4 r4 | % 56
+  R2.*3 \originalPageBreak | % 59
+  R2. | \barNumberCheck #60
+  r4 e8. [ -\mf d16 -. ] e8. [ g16 -. ] | % 61
+  fis8. [ g16 -. ] fis8. [ g16 -. ] e8. [ fis16 -. ] | % 62
+  d8. [ -\< e16 -. ] d8. [ e16 -. ] d8. [ d16 -. ] | % 63
+  e4 -\! -\f r4 r4 | % 64
+  r4 e8. [ -\mf d16 -. ] e8. [ d16 -. ] \originalPageBreak | % 65
+  e8. [ fis16 -. ] e8. [ -\< fis16 -. ] e8. [ fis16 -. ] | % 66
+  d4 -\! -\f r4 r4 | % 67
+  r4 fis8. [ -\mf g16 -. ] fis8. [ g16 -. ] | % 68
+  fis4 fis4 fis4 | % 69
+  g2. \originalPageBreak | \barNumberCheck #70
+  fis8 [   fis16 fis16
+  ] fis8 [ fis8 a8 fis8 ] | % 71
+  e2. | % 72
+  g8 [ g16 g16 ] g8 [ g8 e8 e8 ] | % 73
+  d2. | % 74
+  g2.  -\f | % 75
+  fis2. \originalPageBreak | % 76
+  g2. | % 77
+  fis2. | % 78
+  g2. -\mf | % 79
+  fis2. | \barNumberCheck #80
+  e2. -\> | % 81
+  d2. | % 82
+  R2.*2 \originalPageBreak | % 84
+  R2.*2 | % 86
+  d,8 ( [ -\! -\p
+  fis8 a8 ) d,8 -. fis8 -. a8 -. ] | % 87
+  e'4  a2 | % 88
+  a4 d,4. d8 | % 89
+  e4 -\f r4 r4 \originalPageBreak | \barNumberCheck #90
+  r8 a8 [ -\p a8 a8 a8 a8 ] | % 91
+  fis2 r4 | % 92
+  r8 d8 -. d16 ( [ e16 d8 ) ] d16 ( [ e16 d8 ) ] | % 93
+  e8 [ a,8 -. a8 ( e'8 ) d8 ( a8 ) ] | % 94
+  d4   r4 r4
+  \originalPageBreak | % 95
+  R2. | % 96
+  r8  a8 [ a8 d8 d8 fis8 ] | % 97
+  fis8 [ d8 d8 fis8 fis8 a8 ] | % 98
+  a8 [ fis8 fis8 d8 d8 a8 ] | % 99
+  a8 [ -\f fis8 ] r8 a8 [ -\mf e'8 e8 ] \originalPageBreak | \barNumberCheck
+  #100
+  d8 [ a8 ] r8 d8 [ e8 fis16 ( e16 ) ] | % 101
+  fis8 [   d8 ] g4 e4
+  | % 102
+  fis4  r8 d8 [ d8 fis8 ] | % 103
+  fis8 [ d8 a8 fis'8 ] e8 [ fis16 ( e16 ) ] | % 104
+  fis4 r8 fis8 [ -\ff fis8 g16 ( fis16 ) ] | % 105
+  g4 fis4 e4 \originalPageBreak | % 106
+  d4 r8 d8 [ -\mf a8 e'8 ] | % 107
+  d4 r8 fis8 [ e8 g8 ] | % 108
+  fis4.   fis8 [ fis8
+  fis8 ] | % 109
+  e4.  e8 [ e8 e8 ] \originalPageBreak | \barNumberCheck #110
+  d8 [ fis8 ] g4. -- fis8 -. | % 111
+  e4. a,8 [ a8 e'8 ] | % 112
+  fis8 [ d8 d8 fis8 fis8 d8 ] | % 113
+  a8 [ e'8 e8 a,8 a8 e'8 ] \originalPageBreak | % 114
+  fis8 [ d8 d8 fis8 fis8 d8 ] | % 115
+  e4. e8 [ -\ff d8 ( e8 ) ] | % 116
+  fis8 ( [ g8 ) ] e4. \trill d8 | % 117
+  d4 r4 r4 | % 118
+  R2.*2 \originalPageBreak | \barNumberCheck #120
+  R2.*5 | % 125
+  r8 d16 [ -\p d16 ] d8 [ d8 d8 d8 ] \originalPageBreak | % 126
+  fis8 ( [ d8 ) ] d4 r4 | % 127
+  R2.*5 \originalPageBreak | % 132
+  R2.*6 \originalPageBreak | % 138
+  r8 b'16 [ -\mf b16 ] b8 [ b8 b8 b8 ] | % 139
+  b8 [ d,16 -\mf d16 ] d8 [ d8 d8 d8 ] | \barNumberCheck #140
+  fis8 ( [ -\> d8 ) ] d4 r4 -\! | % 141
+  R2.*2 | % 143
+  r8 e16 [ -\mf e16 ] e8 [ e8 e8 e8 ] \originalPageBreak | % 144
+  e8 ( [ -\> a,8 ) ] a4 r4 -\! | % 145
+  R2.*2 | % 147
+  r8 fis'16 [ -\mf fis16 ] fis8 [ fis8 fis8 fis8 ] | % 148
+  a8 ( [ -\> fis8 ) ] fis4 r4 -\! | % 149
+  R2. \originalPageBreak | \barNumberCheck #150
+  R2.*4 | % 154
+  r4 d8. [ e16 -. ] d8. [ e16 -. ] | % 155
+  fis8. [ g16 -. ] fis8. [ g16 -. ] fis8. [ g16 -. ] \originalPageBreak | % 156
+  fis2. ~   | % 157
+  fis2. ~  | % 158
+  fis8 [ fis16 fis16 ] fis8 [ fis8 fis8 fis8 ] | % 159
+  fis8 [ -\f a,8 a8 d8 d8 fis8 ] | \barNumberCheck #160
+  fis8 [ d8 d8 fis8 fis8 a8 ] \originalPageBreak | % 161
+  a8 [ fis8 fis8 d8 d8 a8 ] | % 162
+  a8 [ -\f fis8 ] r8 a8 [ -\mf e'8 e8 ] | % 163
+  d8 [ a8 ] r8 d8 [ e8 fis16 ( e16 ) ] | % 164
+  fis8 [   d8 ] g4 e4
+  | % 165
+  fis4  r8 d8 [ d8 fis8 ] | % 166
+  fis8 [ d8 a8 fis'8 ] e8 [ fis16 ( e16 ) ] \originalPageBreak | % 167
+  fis4 r8 fis8 [ fis8 g16 ( fis16 ) ] | % 168
+  g4 fis4 e4 | % 169
+  d4. cis8 [ d8. e16 -. ] | \barNumberCheck #170
+  a,4. e'8 [ d8. e16 -. ] | % 171
+  a,4. e'8 [ d8. e16 -. ] | % 172
+  a,4. e'8 [ d8. e16 -. ] \originalPageBreak | % 173
+  a,4 e'8. [ -\ff fis16 -. ] g8. [ e16 -. ] | % 174
+  fis4. e8 d4 | % 175
+  d8 ( [ e8 ) ] e4 a,4 \bar "||"
+  \time 4/4  fis2 r2 | % 177
+  R1*2 \originalPageBreak | % 179
+  R1*6 \originalPageBreak | % 185
+  R1*2 \bar "||"
+
+}
+
+hornIIINotenFeuerwerksmusikHaendel = \relative d' {
+  \globalFeuerwerksmusikHaendel
+  r2 d4. -\mf d8 | % 2
+  fis4. fis8 a4. a8 | % 3
+  a4 fis4 d'4. d8 | % 4
+  d4 a4 a4. a8 | % 5
+  a2 a4. a8 | % 6
+  a4 a8 [ d,8 ] a'4. a8 \originalPageBreak | % 7
+  fis2 d4. -\f d8 | % 8
+  d4. d8 a'4. a8 | % 9
+  a4 fis4 a4. a8 | \barNumberCheck #10
+  d,4 d'4 d,4. d8 | % 11
+  a'2 fis4 a4 | % 12
+  d,4. d8 d4. d8 | % 13
+  a'2 a4. -\ff a8 \originalPageBreak | % 14
+  e'4 a,4 r2 | % 15
+  r2 a4. -\mf a8 | % 16
+  e'4 a,4 r2 | % 17
+  r2 a4. -\f a8 | % 18
+  fis'4 e4 fis4 e4 | % 19
+  e2 r2 \originalPageBreak | \barNumberCheck #20
+  R1*5 | % 25
+  r2 e4. -\mf fis8 \originalPageBreak | % 26
+  d4 d4 e4 a,4 | % 27
+  a2 r2 | % 28
+  r2 d4. -\f d8 | % 29
+  d4 a4 r2 | \barNumberCheck #30
+  r2 d4. -\p d8 | % 31
+  d4 a4 a4 -\mf d4 \originalPageBreak | % 32
+  d4 g4 g4 e4 | % 33
+  a,2 a4 a4 | % 34
+  d2 d4 d4 | % 35
+  d2 d4 e8 [ fis8 ] | % 36
+  e4 a,4 d4 d,4 | % 37
+  a'2 fis4.   fis8
+  \originalPageBreak | % 38
+  fis4 d'2 a4 | % 39
+  a2 fis'4. fis8 | \barNumberCheck #40
+  fis4 fis,4 d'4 e4 | % 41
+  e2 d4  -\f a4 | % 42
+  a4 a4 a,4. a'8 | % 43
+  a2 r2 | % 44
+  d1 \originalPageBreak | % 45
+  fis,2 d2 | % 46
+  a'1 \bar "||"
+  \time 3/4  R2.*5 \originalPageBreak | % 52
+  r4 -\! d4 -\p d4  | % 53
+  a4 a4 d,4 | % 54
+  a'4 a4 a4 | % 55
+  d,4 r4 r4 | % 56
+  R2.*3 \originalPageBreak | % 59
+  R2. | \barNumberCheck #60
+  r4 a'4 -\mf a8. [ e'16 -. ] | % 61
+  d8. [ e16 -. ] d8. [ e16 -. ] a,4 | % 62
+  fis'4 -\< e4. e,8 | % 63
+  a4 -\! -\f r4 r4 | % 64
+  r4 a4 -\mf a4 \originalPageBreak | % 65
+  a8 [ a8 a8 -\< a8 a8 a8 ] | % 66
+  d,4 -\! -\f r4 r4 | % 67
+  r4 d'4 -\mf d4 | % 68
+  d4 d4 d4 | % 69
+  d2. \originalPageBreak | \barNumberCheck #70
+  d8 [   d16 d16 ] d8
+  [ d8 d8 d8 ] | % 71
+  a2. | % 72
+  e'8 [ e16 e16 ] e8 [ e8 e8 e8 ] | % 73
+  fis,2. | % 74
+  d'2.  -\f | % 75
+  d2. \originalPageBreak | % 76
+  e2. | % 77
+  d2. | % 78
+  d2. -\mf | % 79
+  d2. | \barNumberCheck #80
+  a2. -\> | % 81
+  d,2. | % 82
+  R2.*2 \originalPageBreak | % 84
+  R2.*2 | % 86
+  a'2. -\! -\p   | % 87
+  a2.  | % 88
+  d8 ( [ fis,8 d8 ) d'8 -. d8 -. d,8 -. ] | % 89
+  a'4 -\f r4 r4 \originalPageBreak | \barNumberCheck #90
+  r8 fis'8 [ -\p fis8 fis8 fis8 fis8 ] | % 91
+  d2 r4 | % 92
+  r8 d,8 [ d8 d8 d8 d8 ] | % 93
+  a'4 r4 r4 | % 94
+  d,4   r4 r4
+  \originalPageBreak | % 95
+  R2. | % 96
+  r8  fis8 [ fis8 a8 a8 d8 ] | % 97
+  d8 [ a8 a8 d8 d8 fis8 ] | % 98
+  fis8 [ d8 d8 a8 a8 fis8 ] | % 99
+  fis8 [ -\f d8 ] r8 fis8 [ -\mf a8 a8 ] \originalPageBreak | \barNumberCheck
+  #100
+  a8 [ fis8 ] d4 r4 | % 101
+  d'8 [   a8 d8 e8 e8
+  a,8 ] | % 102
+  a4  r8 a8 [ a8 d8 ] | % 103
+  d8 [ a8 fis8 d'8 a8 a8 ] | % 104
+  fis8 [ d8 ] fis4 -\ff a4 | % 105
+  d4 d4 a4 \originalPageBreak | % 106
+  a4 r8 a8 [ -\mf a8 a8 ] | % 107
+  a4 r8 d8 [ a8 e'8 ] | % 108
+  d8 [   d8 d8 d,8 ]
+  d'8 [ e16 d16 ] | % 109
+  e4.  e8 [ a,8 a8 ] \originalPageBreak | \barNumberCheck #110
+  fis'4 d8 [ d,8 d'8 d,8 ] | % 111
+  a'4. a,8 [ a8 a'8 ] | % 112
+  d8 [ a8 a8 d8 d8 a8 ] | % 113
+  a,8 [ a'8 a8 a,8 a8 a'8 ] \originalPageBreak | % 114
+  d8 [ a8 a8 d8 d8 a8 ] | % 115
+  a4. a8 [ -\ff a8 ( e'8 ) ] | % 116
+  d4 d4 a4 | % 117
+  a4 r4 r4 | % 118
+  R2.*2 \originalPageBreak | \barNumberCheck #120
+  R2.*5 | % 125
+  r8 fis16 [ -\p fis16 ] fis8 [ fis'8 fis8 fis8 ] \originalPageBreak | % 126
+  d8 ( [ fis8 ) ] b4 r4 | % 127
+  R2.*5 \originalPageBreak | % 132
+  R2.*6 \originalPageBreak | % 138
+  R2. | % 139
+  r8 d,,16 [ -\mf d16 ] fis8 [ fis8 d8 d8 ] | \barNumberCheck #140
+  d'8 ( [ -\> fis,8 ) ] d4 r4 -\! | % 141
+  R2.*2 | % 143
+  r8 a'16 [ -\mf a16 ] a8 [ a8 a8 a8 ] \originalPageBreak | % 144
+  a8 ( [ -\> a,8 ) ] a4 r4 -\! | % 145
+  R2.*2 | % 147
+  r8 d'16 [ -\mf d16 ] d8 [ d8 d8 d8 ] | % 148
+  fis8 ( [ -\> d8 ) ] d4 r4 -\! | % 149
+  R2. \originalPageBreak | \barNumberCheck #150
+  R2.*6 \originalPageBreak | % 156
+  r8   d,8 [ -\p d8
+  fis8 fis8 a8 ] | % 157
+  d8 [  a8 d8 a8 d8 a8 ] | % 158
+  d8 [ d16 d16 ] d8 [ d8 d8 d8 ] | % 159
+  d8 [ -\f fis,8 fis8 a8 a8 d8 ] | \barNumberCheck #160
+  d8 [ a8 a8 d8 d8 fis8 ] \originalPageBreak | % 161
+  fis8 [ d8 d8 a8 a8 fis8 ] | % 162
+  fis8 [ -\f d8 ] r8 fis8 [ -\mf a8 a8 ] | % 163
+  a8 [ fis8 ] d4 r4 | % 164
+  d'8 [   a8 d8 e8 e8
+  a,8 ] | % 165
+  a4  r8 a8 [ a8 d8 ] | % 166
+  d8 [ a8 fis8 d'8 a8 a8 ] \originalPageBreak | % 167
+  fis8 [ d8 ] fis4 a4 | % 168
+  d4 d,4 a'4 | % 169
+  a4. a8 [ a8 a8 ] | \barNumberCheck #170
+  a,4. a'8 [ a8 a8 ] | % 171
+  a,4. a'8 [ a8 a8 ] | % 172
+  a,4. a'8 [ a8 a8 ] \originalPageBreak | % 173
+  a,4 a'4 -\ff e'4 | % 174
+  d4 a4 d4 | % 175
+  d4 a4. a8 \bar "||"
+  \time 4/4  a2 r2 | % 177
+  R1*2 \originalPageBreak | % 179
+  R1*6 \originalPageBreak | % 185
+  R1*2 \bar "||"
+
+}
 
 
 trompeteINotenFeuerwerksmusikHaendel = \tempTranspose \relative a' {

@@ -58,7 +58,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 
 		\new Staff \with {
 			instrumentName = "1. Oboe (C)"
-			shortInstrumentName = "geninstr"
+			shortInstrumentName = "Ob."
 			midiInstrument = "acoustic grand"
 			
 		}
@@ -66,11 +66,11 @@ scoreFeuerwerksmusikHaendel = {	<<
 			\new Voice = "vOboe_1" {
 				\tag #'transponierendepartitur {
 					\clef "treble"
-					\transpose c c \OboeINotenFeuerwerksmusikHaendel
+					\transpose c c \oboeINotenFeuerwerksmusikHaendel
 				}
 				\tag #'klingendepartitur {
 					\clef "treble"
-					\OboeINotenFeuerwerksmusikHaendel
+					\oboeINotenFeuerwerksmusikHaendel
 				}
 			}
 			
@@ -79,7 +79,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 
 		\new Staff \with {
 			instrumentName = "2. Oboe (C)"
-			shortInstrumentName = "geninstr"
+			shortInstrumentName = "Ob."
 			midiInstrument = "acoustic grand"
 			
 		}
@@ -87,11 +87,11 @@ scoreFeuerwerksmusikHaendel = {	<<
 			\new Voice = "vOboe_2" {
 				\tag #'transponierendepartitur {
 					\clef "treble"
-					\transpose c c \OboeIINotenFeuerwerksmusikHaendel
+					\transpose c c \oboeIINotenFeuerwerksmusikHaendel
 				}
 				\tag #'klingendepartitur {
 					\clef "treble"
-					\OboeIINotenFeuerwerksmusikHaendel
+					\oboeIINotenFeuerwerksmusikHaendel
 				}
 			}
 			
@@ -100,7 +100,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 
 		\new Staff \with {
 			instrumentName = "3. Oboe (C)"
-			shortInstrumentName = "geninstr"
+			shortInstrumentName = "Ob."
 			midiInstrument = "acoustic grand"
 			
 		}
@@ -108,11 +108,11 @@ scoreFeuerwerksmusikHaendel = {	<<
 			\new Voice = "vOboe_3" {
 				\tag #'transponierendepartitur {
 					\clef "treble"
-					\transpose c c \OboeIIINotenFeuerwerksmusikHaendel
+					\transpose c c \oboeIIINotenFeuerwerksmusikHaendel
 				}
 				\tag #'klingendepartitur {
 					\clef "treble"
-					\OboeIIINotenFeuerwerksmusikHaendel
+					\oboeIIINotenFeuerwerksmusikHaendel
 				}
 			}
 			
@@ -121,7 +121,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 
 		\new Staff \with {
 			instrumentName = "1. Trompete (C)"
-			shortInstrumentName = "geninstr"
+			shortInstrumentName = "1. Trp."
 			midiInstrument = "acoustic grand"
 			
 		}
@@ -142,7 +142,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 
 		\new Staff \with {
 			instrumentName = "2. Trompete (C)"
-			shortInstrumentName = "geninstr"
+			shortInstrumentName = "2. Trp."
 			midiInstrument = "acoustic grand"
 			
 		}
@@ -163,7 +163,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 
 		\new Staff \with {
 			instrumentName = "3. Trompete (C)"
-			shortInstrumentName = "geninstr"
+			shortInstrumentName = "3. Trp."
 			midiInstrument = "acoustic grand"
 			
 		}
@@ -176,6 +176,69 @@ scoreFeuerwerksmusikHaendel = {	<<
 				\tag #'klingendepartitur {
 					\clef "treble"
 					\trompeteIIINotenFeuerwerksmusikHaendel
+				}
+			}
+			
+		>>
+
+
+		\new Staff \with {
+			instrumentName = "1. Horn (C)"
+			shortInstrumentName = "1. Hrn."
+			midiInstrument = "acoustic grand"
+			
+		}
+			<<
+			\new Voice = "vHorn_1" {
+				\tag #'transponierendepartitur {
+					\clef "treble"
+					\transpose c c \hornINotenFeuerwerksmusikHaendel
+				}
+				\tag #'klingendepartitur {
+					\clef "treble"
+					\hornINotenFeuerwerksmusikHaendel
+				}
+			}
+			
+		>>
+
+
+		\new Staff \with {
+			instrumentName = "2. Horn (C)"
+			shortInstrumentName = "2. Hrn."
+			midiInstrument = "acoustic grand"
+			
+		}
+			<<
+			\new Voice = "vHorn_2" {
+				\tag #'transponierendepartitur {
+					\clef "treble"
+					\transpose c c \hornIINotenFeuerwerksmusikHaendel
+				}
+				\tag #'klingendepartitur {
+					\clef "treble"
+					\hornIINotenFeuerwerksmusikHaendel
+				}
+			}
+			
+		>>
+
+
+		\new Staff \with {
+			instrumentName = "3. Horn (C)"
+			shortInstrumentName = "3. Hrn."
+			midiInstrument = "acoustic grand"
+			
+		}
+			<<
+			\new Voice = "vHorn_3" {
+				\tag #'transponierendepartitur {
+					\clef "treble"
+					\transpose c c \hornIIINotenFeuerwerksmusikHaendel
+				}
+				\tag #'klingendepartitur {
+					\clef "treble"
+					\hornIIINotenFeuerwerksmusikHaendel
 				}
 			}
 			
@@ -264,7 +327,7 @@ scoreFeuerwerksmusikHaendel = {	<<
 			}
 			
 		>>
-\orgelsystemFeuerwerksmusikHaendel
+		%\orgelsystemFeuerwerksmusikHaendel
 
 
 		\new Staff \with {
